@@ -70,7 +70,6 @@ struct ContentView: View {
                             Section {
                                 HStack {
                                     TextField("For Example: 64GB, PRODUCT RED", text: $server.additionalInformation.emptyNil)
-                                        .keyboardType(.numberPad)
                                 }
                             } header: {
                                 Text("Additional Information")

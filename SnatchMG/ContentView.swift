@@ -155,7 +155,7 @@ struct ContentView: View {
                                 Section("CacheData") {
                                     ValueView(model.cacheData)
                                 }
-                                Section("CacheExtra") {
+                                Section {
                                     HStack {
                                         Text("BuildVersion")
                                         Spacer()
@@ -174,7 +174,12 @@ struct ContentView: View {
                                         ValueView(artworkTraits, customTitle: "ArtworkTraits")
                                     }
                                     ValueView(model.cacheExtra.additionalFields, customTitle: "Additional Fields (\(model.cacheExtra.additionalFields.count.formatted(.number)))")
+                                } header: {
+                                    Text("CacheExtra")
+                                } footer: {
+                                    Text("To find a list of the Values in Additional Fields in readable Format, go to: https://theapplewiki.com/wiki/List_of_MobileGestalt_keys")
                                 }
+
                                 Section("CacheUUID") {
                                     ValueView(value: .string(model.cacheUUID))
                                 }

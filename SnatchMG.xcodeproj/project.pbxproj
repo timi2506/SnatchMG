@@ -14,19 +14,6 @@
 		8DE8945E2ED1C51B005BAC9D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8945D2ED1C518005BAC9D /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8DDA92252ECF2D7B0011CC8C /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		8D6A0EBD2EC9F49D00BFD53F /* SnatchMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnatchMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC874502ED06ECA00ED2B44 /* MGManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +107,6 @@
 				8D6A0EB92EC9F49D00BFD53F /* Sources */,
 				8D6A0EBA2EC9F49D00BFD53F /* Frameworks */,
 				8D6A0EBB2EC9F49D00BFD53F /* Resources */,
-				8DDA92252ECF2D7B0011CC8C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);

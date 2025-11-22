@@ -177,7 +177,7 @@ struct ContentView: View {
                                 } header: {
                                     Text("CacheExtra")
                                 } footer: {
-                                    Text("To find a list of the Values in Additional Fields in readable Format, go to: https://theapplewiki.com/wiki/List_of_MobileGestalt_keys")
+                                    Text("To find a List of the Keys in Additional Fields in readable Format, go to: https://theapplewiki.com/wiki/List_of_MobileGestalt_keys")
                                 }
 
                                 Section("CacheUUID") {

@@ -1,4 +1,5 @@
 # SnatchMG
+A MobileGestalt Viewer that also allows exporting it AND hosting a Server which third party apps can discover (for example Nugget or other tools, if they implement it)
 
 ## Credits
 https://github.com/p-x9/swift-mobile-gestalt for the ability to fetch MobileGestalt Values directly (MGCopyAnswer)
